@@ -7,4 +7,4 @@ Community knowledge base for the Elfin resin 3d printer
 
 ## BLUEPRINTS
 - [Datasheets](../../datasheets)
-- [CAD source models](../../models)
+- [CAD source models](../../blueprints)
