@@ -10,13 +10,14 @@ Community knowledge base for the Elfin resin 3d printer
 ### OFFICIAL STORE AND PARTS
 - [Nova3D Official Aliexpress store](https://s.click.aliexpress.com/e/_sY7luU)
 - [Elfin LCD and Vats](https://s.click.aliexpress.com/e/_sXoRY4)
+- [Nova3D official website](https://www.nova3dprinter.com/)
 
 ### COMMUNITY & LINKS
 - [Elfin Facebook Group](https://www.facebook.com/groups/515968245875047/)
 - [Nova 3D Facebook Group]
 
 ### COMMUNITY TOOLS
--[Chitubox Plugin](Nova3D-Elfin-Chitubox-Plugin) **(X3msnake)**
+- [Chitubox Plugin](https://github.com/opensourcemanufacturing/Nova3D-Elfin-Chitubox-Plugin) *(X3msnake)*
 
 ### BLUEPRINTS
 - [Datasheets](datasheets)
