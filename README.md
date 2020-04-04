@@ -5,6 +5,7 @@ Community knowledge base for the Elfin resin 3d printer
 
 ### Community Tools
 - [Chitubox Plugin](https://github.com/opensourcemanufacturing/Nova3D-Elfin-Chitubox-Plugin) *(X3msnake)*
+- [Network sender/manager tool multi OS](https://github.com/Nume1977/Nova3D-File-Manager) *(Nume1977)*
 
 ### Where to buy parts
 - [Nova3D Official Aliexpress store](https://s.click.aliexpress.com/e/_sY7luU)
