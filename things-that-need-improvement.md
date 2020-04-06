@@ -8,7 +8,7 @@
 
 ### SLICER
 
-- Adopt Prusa Slicer, contribute to OpenSource software by adding Nova3D printers to the software and give up the ice age self produced slicer
+- Adopt Prusa Slicer, Give up the ice age self produced slicer and instead contribute to OpenSource software by adding Nova3D printers to the software
 
 ### HARDWARE
 
