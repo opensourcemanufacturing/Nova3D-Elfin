@@ -4,7 +4,7 @@
 ### FIRMWARE
 
 - Add a safe eject button for the USB stick (curretly making the usb sticks show false errors) *(Nume1977)*
-- Add capabilities for downloading a file from the printer memory *(x3msnake)*
+- Add command for downloading a file from the printer memory *(x3msnake)*
 
 ### SLICER
 
