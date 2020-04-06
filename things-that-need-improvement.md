@@ -8,7 +8,7 @@
 - Add the possibility to update the factory light compensation map via a update file of some kind *(x3msnake)*
 
 ### FIRMWARE UI
-- Fix the small button size of most UI menus *(x3msnake)*
+- Fix the small button size of most UI menus [see photo](https://user-images.githubusercontent.com/11083514/78594553-6ec70c00-7840-11ea-8647-984614d08050.png) *(x3msnake)*
 - Fix the bad position of text on the network password screen *(x3msnake)*
 
 ### SOFTWARE SLICER
