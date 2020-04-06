@@ -5,6 +5,7 @@
 
 - Add a safe eject button for the USB stick (curretly making the usb sticks show false errors) *(Nume1977)*
 - Add command for downloading a file from the printer memory *(x3msnake)*
+- Add the possibility to update the factory light compensation map via a update file of some kind *(x3msnake)*
 
 ### FIRMWARE UI
 - Fix the small button size of most UI menus *(x3msnake)*
