@@ -1,6 +1,8 @@
 # Nova3D-Elfin
 Community knowledge base for the Elfin resin 3d printer
 
+Sugestion to devs: [Things that need urgent improvement](things-that-need-improvement.md)
+
 ### FAQ
 
 ### Community Tools
