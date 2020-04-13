@@ -11,7 +11,7 @@
 
 ### FIRMWARE UI
 - Fix the small button size of most UI menus [see photo](https://user-images.githubusercontent.com/11083514/78594553-6ec70c00-7840-11ea-8647-984614d08050.png) *(x3msnake)*
-- Fix the bad position of text on the network password screen [see solution]
+- Fix the bad position of text on the network password screen [see possible solution](https://www.facebook.com/Photonsters/posts/1071765149944131)
 
 ### SOFTWARE SLICER
 
