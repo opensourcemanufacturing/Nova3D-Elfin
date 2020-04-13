@@ -6,6 +6,7 @@
 - Add feature to safe eject button for the USB stick (curretly making the usb sticks show false errors) *(Nume1977)*
 - Add feature to download a file from the printer memory to the USB
 - Add command to download a file from the printer memory via Network Manager
+- Add command to display the file preview if it exists, or show a generic file preview when unavailable
 - Add procedure to update the factory light compensation map via a "printable" update file of some kind
 - Add feature to modify with relative values the layer exposure times and allow users to save that modifier to the print file 
 
