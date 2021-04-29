@@ -1,0 +1,129 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 3.10.65 (jf@jf) (gcc version 5.2.1 (OpenWrt/Linaro GCC 5.2-2015.11-2 2016-11-07) ) #959 Mon Nov 18 02:26:32 UTC 2019
+[    0.000000] CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00053177
+[    0.000000] CPU: VIVT data cache, VIVT instruction cache
+[    0.000000] Machine: zkswe-z6x, model: Zkswe Z6s platform
+[    0.000000] Memory policy: ECC disabled, Data cache writeback
+[    0.000000] On node 0 totalpages: 8192
+[    0.000000] free_area_init_node: node 0, pgdat c059ff50, node_mem_map c05b6000
+[    0.000000]   Normal zone: 64 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 8192 pages, LIFO batch:0
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 8128
+[    0.000000] Kernel command line: loglevel=0 initcall_debug=0 lpj=1376256 logo_base=0x81680000
+[    0.000000] PID hash table entries: 128 (order: -3, 512 bytes)
+[    0.000000] Dentry cache hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Inode-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Memory: 32MB = 32MB total
+[    0.000000] Memory: 26460k/26460k available, 6308k reserved, 0K highmem
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xc2800000 - 0xff000000   ( 968 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xc2000000   (  32 MB)
+[    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc02b7e34   (2752 kB)
+[    0.000000]       .init : 0xc02b8000 - 0xc04c950c   (2118 kB)
+[    0.000000]       .data : 0xc04ca000 - 0xc05a0688   ( 858 kB)
+[    0.000000]        .bss : 0xc05a0688 - 0xc05b5244   (  83 kB)
+[    0.000000] SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS:256
+[    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+[    0.000173] Calibrating delay loop (skipped) preset value.. 275.25 BogoMIPS (lpj=1376256)
+[    0.000204] pid_max: default: 32768 minimum: 301
+[    0.000591] Mount-cache hash table entries: 512
+[    0.001709] CPU: Testing write buffer coherency: ok
+[    0.002436] Setting up static identity map for 0xc02569f8 - 0xc0256a34
+[    0.004858] pinctrl core: initialized pinctrl subsystem
+[    0.005098] NET: Registered protocol family 16
+[    0.006045] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.009540] z6s-pinctrl pio: initialized z6s driver
+[    0.017655] bio: create slab <bio-0> at 0
+[    0.018587] pwm module init!
+[    0.021970] Advanced Linux Sound Architecture Driver Initialized.
+[    0.025702] NET: Registered protocol family 2
+[    0.027697] TCP established hash table entries: 512 (order: 0, 4096 bytes)
+[    0.027755] TCP bind hash table entries: 512 (order: -1, 2048 bytes)
+[    0.027784] TCP: Hash tables configured (established 512 bind 512)
+[    0.027935] TCP: reno registered
+[    0.027970] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.028011] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.028531] NET: Registered protocol family 1
+[    0.514822] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.515346] jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+[    0.516175] msgmni has been set to 51
+[    0.517133] io scheduler noop registered
+[    0.517258] io scheduler cfq registered (default)
+[    0.529268] uart1: ttyS1 at MMIO 0x1c25400 (irq = 102) is a Z6S
+[    0.530161] uart2: ttyS2 at MMIO 0x1c25800 (irq = 103) is a Z6S
+[    0.532678] spi spi0: master is unqueued, this is deprecated
+[    0.533989] m25p80 spi0.0: w25q128 (16384 Kbytes) - fast mode
+[    0.536133] 6 zkswepart partitions found on MTD device (null)
+[    0.536168] Creating 6 MTD partitions on "(null)":
+[    0.536200] 0x000000000000-0x000000020000 : "uboot"
+[    0.537652] 0x000000020000-0x000000500000 : "boot"
+[    0.538897] 0x000000500000-0x000000580000 : "data"
+[    0.540176] 0x000000580000-0x000000600000 : "boot_logo"
+[    0.541459] 0x000000600000-0x000001000000 : "res"
+[    0.542796] 0x000001000000-0x000001000000 : "UDISK"
+[    0.542819] mtd: partition "UDISK" is out of reach -- disabled
+[    0.544751] i2c /dev entries driver
+[    0.546281] z6s-mmc sdc0: SD/MMC/SDIO Host Controller Driver(v0.91 2018-5-29 14:19) Compiled in Nov 16 2019 at 10:18:24
+[    0.546379] z6s-mmc sdc0: regulator prop vmmc,str none
+[    0.546412] z6s-mmc sdc0: regulator prop vqmmc,str none
+[    0.546438] z6s-mmc sdc0: regulator prop vdmmc,str none
+[    0.546460] z6s-mmc sdc0: Failed getting OCR mask: 0
+[    0.547077] z6s-mmc sdc0: ***set host ocr***
+[    0.547278] z6s-mmc sdc0: Got CD GPIO #138.
+[    0.584271] logger: created 128K log 'log_main'
+[    0.584392] z6s-mmc sdc0: smc 0 p0 err, cmd 52, RTO !!
+[    0.585346] z6s-mmc sdc0: smc 0 p0 err, cmd 52, RTO !!
+[    0.587256] spk gpio valid!
+[    0.591354] z6s-internal-codec 1c23c00.codec: ASoC: DAPM unknown pin HPOUTR
+[    0.591399] z6s-internal-codec 1c23c00.codec: ASoC: DAPM unknown pin HPOUTL
+[    0.591423] z6s-internal-codec 1c23c00.codec: ASoC: DAPM unknown pin SPKL
+[    0.591445] z6s-internal-codec 1c23c00.codec: ASoC: DAPM unknown pin SPKR
+[    0.591470] zkswe-codec-machine sound.2: ASoC: DAPM unknown pin External Speaker
+[    0.592089] z6s-mmc sdc0: smc 0 p0 err, cmd 5, RTO !!
+[    0.595611] z6s-mmc sdc0: smc 0 p0 err, cmd 5, RTO !!
+[    0.597966] zkswe-codec-machine sound.2:  z6s-codec <-> 1c23c00.cpudai0-controller mapping ok
+[    0.598098] zkswe-codec-machine sound.2: ASoC: no sink widget found for MainMic Bias
+[    0.598131] zkswe-codec-machine sound.2: ASoC: Failed to add route External MainMic -> direct -> MainMic Bias
+[    0.598157] zkswe-codec-machine sound.2: ASoC: no source widget found for MainMic Bias
+[    0.598181] zkswe-codec-machine sound.2: ASoC: Failed to add route MainMic Bias -> direct -> MIC1P
+[    0.598204] zkswe-codec-machine sound.2: ASoC: no source widget found for MainMic Bias
+[    0.598228] zkswe-codec-machine sound.2: ASoC: Failed to add route MainMic Bias -> direct -> MIC1N
+[    0.599256] z6s-mmc sdc0: smc 0 p0 err, cmd 5, RTO !!
+[    0.600201] z6s-mmc sdc0: smc 0 p0 err, cmd 5, RTO !!
+[    0.600341] TCP: cubic registered
+[    0.600427] VFP support v0.3: not present
+[    0.607977] usb_serial_number:20080411
+[    0.608741] android_usb gadget: android_usb ready
+[    0.608904] get ctp_power is fail, -22
+[    0.608924] get ctp_power_ldo_vol is fail, -22
+[    0.608944] ctp_fetch_sysconfig_para: ctp_power_io is invalid.
+[    0.633555] mmc0: host does not support reading read-only switch. assuming write-enable.
+[    0.636849] mmc0: new high speed SDHC card at address aaaa
+[    0.637591] mmcblk0: mmc0:aaaa SC32G 29.7 GiB 
+[    0.640269]  mmcblk0: p1
+[    0.753607] input: gt9xx as /devices/virtual/input/input0
+[    0.754625] i2c-core: driver [gt9xx] using legacy suspend method
+[    0.754652] i2c-core: driver [gt9xx] using legacy resume method
+[    0.754868] ALSA device list:
+[    0.754895]   #0: audiocodec
+[    0.756407] ERROR! get zkswe_pins failed!
+[    0.756444] zkswe_init ok!
+[    0.756705] Warning: unable to open an initial console.
+[    0.765694] Freeing unused kernel memory: 2116K (c02b8000 - c04c9000)
+[    0.794815] init: could not import file '/init.zkswe-z6x.rc' from '/etc/init.rc'
+[    1.057656] jffs2: notice: (1) jffs2_build_xattr_subsystem: complete building xattr subsystem, 0 of xdatum (0 unchecked, 0 orphan) and 0 of xref (0 dead, 0 orphan) found.
+[    1.079667] android_usb: already disabled
+[    1.123293] adb_open
+[    1.123341] adb_bind_config
+[    1.173221] FAT-fs (mmcblk0p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+[    6.485808] android_work: sent uevent USB_STATE=CONNECTED
+[    6.520817] android_usb gadget: high-speed config #1: android
+[    6.521213] android_work: sent uevent USB_STATE=CONFIGURED
+[   13.584413] adbd (53): /proc/53/oom_adj is deprecated, please use /proc/53/oom_score_adj instead.
